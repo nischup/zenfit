@@ -1,0 +1,95 @@
+<ion-header [translucent]="true">
+
+  <ion-toolbar>
+    <ion-title>
+      Profile
+    </ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<div class="ion-text-center">
+  <img src="assets/images/profile.PNG">
+</div>
+
+<div class="ion-text-center">
+  <h3> Deborah Moore </h3>
+</div>
+
+
+
+<div class="ion-text-center">
+  <ion-button shape="round"> 
+    <div class="kgblock"> </div> <br/>  
+    <!-- <div> 55 kg </div> <span>   </span>  -->
+  </ion-button>
+
+  <ion-button shape="round"> 
+    <ion-icon name="walk-outline" color="warning"></ion-icon> <br>
+      <!-- <span> 167 cm </span> -->
+  </ion-button>
+
+  <ion-button shape="round"> 
+    <!-- <ion-icon slot="start" name="logo-apple"></ion-icon>  -->
+    26 years  </ion-button>
+</div>
+
+<ion-button expand="block" shape="round" color="danger" routerLink="/tabs"> Go Premium </ion-button>
+
+  <div class="list_div">
+       Acoount <ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>  
+
+  <div class="list_div">
+        My workouts 
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>  
+
+  <div class="list_div">
+       Frequency of Notification  
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>  
+
+  <div class="list_div" [routerLink]="['/login']">
+       Log Out 
+  </div>
+
+
+  <div class="list_div_setting">
+       Settings 
+  </div>
+
+
+  <div class="list_div">
+       Mindset 
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>   
+
+  <div class="list_div">
+       Weight 
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>   
+
+  <div class="list_div">
+       Loss 
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>   
+
+  <div class="list_div">
+       Running 
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>   
+
+  <div class="list_div">
+       Strength 
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>    
+
+  <div class="list_div">
+       Lifestyle 
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>  
+
+</ion-content>

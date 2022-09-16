@@ -1,0 +1,76 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Insight
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+<div class="ion-text-center">
+  <circle-progress
+    [percent]="70"
+    [radius]="100"
+    [title]="950"
+    [space]="10"
+    [subtitle]="'Cal'"
+    [subtitleFontSize]="16"
+    [innerStrokeWidth]="10"
+    [innerStrokeColor]="'#E6AA38'"
+    [animation]="true"
+    [animationDuration]="100"
+  ></circle-progress>
+</div>
+
+<ion-grid>
+  <ion-row>
+    <ion-col size="4">
+      <div class="ion-text-center">
+        <circle-progress
+          [percent]="70"
+          [radius]="65"
+          [title]="64"
+          [space]="10"
+          [subtitle]="'Running'"
+          [innerStrokeWidth]="8"
+          [innerStrokeColor]="'#92D2E9'"
+          [animation]="true"
+          [animationDuration]="100"
+        ></circle-progress>
+      </div>
+    </ion-col>
+    <ion-col size="4">
+      <div class="ion-text-center">
+        <circle-progress
+          [percent]="70"
+          [radius]="65"
+          [title]="50"
+          [space]="10"
+          [subtitle]="'Minutes'"
+          [innerStrokeWidth]="8"
+          [innerStrokeColor]="'#DD6B6E'"
+          [animation]="true"
+          [animationDuration]="100"
+        ></circle-progress>
+      </div>
+    </ion-col>
+    <ion-col size="4">
+      <div class="ion-text-center">
+        <circle-progress
+          [percent]="70"
+          [radius]="65"
+          [title]="72"
+          [space]="10"
+          [subtitle]="'Minutes'"
+          [innerStrokeWidth]="8"
+          [innerStrokeColor]="'#5961F7'"
+          [animation]="true"
+          [animationDuration]="100"
+        ></circle-progress>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>
